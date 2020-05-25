@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {font-family: "iconfont";
+  font-family: 'iconfont';  /* project id 1785831 */
+  src: url('//at.alicdn.com/t/font_1785831_gqb9qp4437s.eot');
+  src: url('//at.alicdn.com/t/font_1785831_gqb9qp4437s.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1785831_gqb9qp4437s.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1785831_gqb9qp4437s.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1785831_gqb9qp4437s.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1785831_gqb9qp4437s.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconstart-copy:before {
+  content: "\e603";
+}
+.iconsaoma:before {
+  content: "\e614";
+}
+.iconshaixuan:before {
+  content: "\ea0d";
+}
+.iconlocation:before {
+  content: "\e600";
+}
+.iconsousuo:before {
+  content: "\e619";
+}
+.iconxiaoxi:before {
+  content: "\e604";
+}
+.iconhuangguan:before {
+  content: "\e676";
+}
+.iconarrow-down:before {
+  content: "\e601";
+}
+.iconchazhao:before {
+  content: "\e607";
+}
+.iconleft:before {
+  content: "\e602";
+}
+.list-item {
+  height: 250rpx;
+  font-size: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.list-item .img {
+  height: 200rpx !important;
+  width: 200rpx !important;
+  border-radius: 10rpx;
+  border: 1rpx solid #C8C7CC;
+}
+.list-item .message {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 500rpx;
+  height: 250rpx;
+  padding: 25rpx 8rpx;
+  margin: 6rpx 0;
+  border-bottom: 1rpx solid #C8C7CC;
+}
+.list-item .message .name {
+  font-size: 32rpx;
+  font-weight: bolder;
+}
+.list-item .message .rate {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin: 6rpx 0;
+  width: 50%;
+}
+.list-item .message .rate .rate-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  color: #dd524d;
+}
+.list-item .message .rate .count {
+  font-size: 24rpx;
+  color: #999999;
+}
+.list-item .message .price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 80%;
+  margin: 6rpx 0;
+  color: #999999;
+  font-size: 24rpx;
+}
+.list-item .message .price .nofee {
+  text-decoration: line-through;
+  margin-left: 10rpx;
+}
+.list-item .message .comment {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 22rpx;
+  padding: 0 6rpx;
+  margin: 6rpx 0rpx;
+  background-color: rgba(240, 208, 112, 0.3);
+  color: #F0AD4E;
+}
+.list-item .message .discount {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 20rpx;
+  padding: 0 6rpx;
+  margin: 10rpx 0rpx;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.list-item .message .discount .text {
+  padding: 4rpx 8rpx;
+  color: #dd524d;
+  border: 1rpx solid #dd524d;
+}
+

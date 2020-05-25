@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "eleme-head": "/components/head",
+    "search": "/components/search",
+    "eleme-banner": "/components/eleme-banner",
+    "classify-list": "/components/eleme-classify",
+    "vip": "/components/vip",
+    "shop-menu": "/components/shop-menu",
+    "shop-list": "/components/shop-list"
+  }
+}

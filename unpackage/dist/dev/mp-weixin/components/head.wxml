@@ -1,0 +1,1 @@
+<view><view class="head-box"><view class="head-left"><view class="iconfont iconlocation"></view><view class="local"><text>{{location.address+"+"+location.address_detail}}</text></view><view class="iconfont iconarrow-down"></view></view><view class="head-right"><view class="iconfont iconsaoma"></view><view class="iconfont iconxiaoxi"></view></view></view></view>
